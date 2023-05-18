@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&family=PT+Serif:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,300;0,400;1,400&family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+table {
+    margin: auto;
+    padding: 50px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+thead {
+    display: table-row-group;
+}
+
+tbody {
+    display: table-header-group;
+}
+
+tbody tr:nth-child(3) td:nth-child(1) {
+    background: orange;
+}
+
+/* span td:nth-of-type(1){
+    background: orange;
+} */
+/* Neblogas galvosūkis, bet arba mano HTML kodas persunkus, nes neišeina niekaip spalvų pritaikyti be id ir class, ieškojau internete, stack-overflow  2 valandas sugaišau dėl spalvos, tai galva truputi perkaito :DD */

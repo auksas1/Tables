@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    margin: auto;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    outline: 2px solid orange;
+    outline-offset: -8px;
+    border: 15px solid white;
+    background-color: green;
+    border-color: white;
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+    background: orange;
+    border-color: white;
+    outline: 2px solid green;
+    outline-offset: -8px;
+}
